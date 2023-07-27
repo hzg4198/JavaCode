@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClassCodeByTeacher/ClassCodeByTeacher.iml" filepath="$PROJECT_DIR$/ClassCodeByTeacher/ClassCodeByTeacher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaCode.iml" filepath="$PROJECT_DIR$/JavaCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Work/Work.iml" filepath="$PROJECT_DIR$/Work/Work.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Work/_0714homework/_0714homework.iml" filepath="$PROJECT_DIR$/Work/_0714homework/_0714homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Work/_0717/_0717.iml" filepath="$PROJECT_DIR$/Work/_0717/_0717.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Work/_0719/_0719.iml" filepath="$PROJECT_DIR$/Work/_0719/_0719.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Work/_0721/_0721.iml" filepath="$PROJECT_DIR$/Work/_0721/_0721.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Work/_0724-0725/_0724.iml" filepath="$PROJECT_DIR$/Work/_0724-0725/_0724.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
+    </modules>
+  </component>
+</project>
