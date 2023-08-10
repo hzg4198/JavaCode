@@ -7,18 +7,18 @@ import java.lang.reflect.Proxy;
 
 public class ProxyDemo {
 	public static void main(String[] args) {
-		Image realImage = new RealImage("preview.jpg");
-		Image proxyImage = new ProxyImage("preview.jpg");
-
-
-		realImage.display();
-		System.out.println("-------------");
-		// 图像将从磁盘加载
-		proxyImage.display();
-		System.out.println("------------");
-		// 图像不需要从磁盘加载
-		proxyImage.display();
-/*		RealImage realImage = new RealImage("preview.jpg");
+//		Image realImage = new RealImage("preview.jpg");
+//		Image proxyImage = new ProxyImage("preview.jpg");
+//
+//
+//		realImage.display();
+//		System.out.println("-------------");
+//		// 图像将从磁盘加载
+//		proxyImage.display();
+//		System.out.println("------------");
+//		// 图像不需要从磁盘加载
+//		proxyImage.display();
+		RealImage realImage = new RealImage("preview.jpg");
 		Image imgInstance =(Image) Proxy.newProxyInstance(realImage.getClass().getClassLoader(),
 				new Class[]{Image.class}, new InvocationHandler() {
 					@Override
@@ -29,6 +29,6 @@ public class ProxyDemo {
 						return method.invoke(realImage, args);
 					}
 				});
-		imgInstance.display();*/
+		imgInstance.display();
 	}
 }
