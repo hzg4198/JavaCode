@@ -22,7 +22,7 @@ public class solution41 {
     }
 
     public static int firstMissingPositive(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {//原地哈希排序
+/*        for (int i = 0; i < nums.length; i++) {//原地哈希排序
             if(nums[i] == (i + 1) || nums[i] > nums.length || nums[i] <= 0 || nums[i] == nums[nums[i] - 1]) {
                 continue;
             } else {
@@ -38,6 +38,20 @@ public class solution41 {
         }
 
         System.out.println(Arrays.toString(nums));
+        return nums.length+1;*/
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i]<=0||nums[i]==i + 1||nums[i]> nums.length){
+                continue;
+            }
+            int temp = nums[i];
+            nums[i] = nums[nums[i]-1];
+            nums[nums[i]-1]=temp;
+            i--;
+        }
+        int min = 0;
+        for (int num : nums) {
+            if(++min!=num)return min;
+        }
         return nums.length+1;
     }
 }

@@ -1,6 +1,4 @@
-package test;
-
-import org.omg.PortableInterceptor.ObjectReferenceTemplateSeqHelper;
+package testDemo;
 
 import java.util.Objects;
 

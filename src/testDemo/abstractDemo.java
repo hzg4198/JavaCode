@@ -1,7 +1,4 @@
-package test;
-
-import javax.swing.table.TableCellEditor;
-import java.util.Objects;
+package testDemo;
 
 public  class abstractDemo {
     public static void main(String[] args) {
